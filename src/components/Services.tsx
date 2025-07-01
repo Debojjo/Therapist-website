@@ -11,7 +11,7 @@ export default function Services() {
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 max-w-6xl mx-auto">
-        {/* Service 1 */}
+
         <div className="flex flex-col items-center">
           <Image
             src="/images/service1.jpg"
@@ -28,7 +28,6 @@ export default function Services() {
           </p>
         </div>
 
-        {/* Service 2 */}
         <div className="flex flex-col items-center">
           <Image
             src="/images/service2.jpg"
@@ -45,7 +44,6 @@ export default function Services() {
           </p>
         </div>
 
-        {/* Service 3 */}
         <div className="flex flex-col items-center">
           <Image
             src="/images/service3.jpg"
