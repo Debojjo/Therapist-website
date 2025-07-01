@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image"; 
 
 export default function Hero() {
   return (
@@ -22,9 +23,11 @@ export default function Hero() {
       <header className="absolute top-0 left-0 w-full px-6 py-10 flex justify-between items-center bg-[#f9f6f1] z-10">
 
         <div className="flex items-center gap-3 cursor-pointer ">
-          <img
+          <Image
             src="/images/header-logo.png"
             alt="Logo"
+            width={40}
+            height={40}
             className="h-10 w-10 object-contain"
           />
 

@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 export default function Services() {
   return (
@@ -12,9 +13,11 @@ export default function Services() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 max-w-6xl mx-auto">
         {/* Service 1 */}
         <div className="flex flex-col items-center">
-          <img
+          <Image
             src="/images/service1.jpg"
             alt="Military & Frontline Workers"
+            width={1000}
+            height={1000}
             className="w-80 h-80 object-cover rounded-full mb-6 shadow-lg"
           />
           <h3 className="text-xl font-semibold font-serif text-emerald-950 mb-5">
@@ -27,9 +30,11 @@ export default function Services() {
 
         {/* Service 2 */}
         <div className="flex flex-col items-center">
-          <img
+          <Image
             src="/images/service2.jpg"
             alt="Couples Counseling"
+            width={1000}
+            height={1000}
             className="w-80 h-80 object-cover rounded-full mb-6 shadow-lg"
           />
           <h3 className="text-xl font-semibold font-serif text-emerald-950 mb-5">
@@ -42,9 +47,11 @@ export default function Services() {
 
         {/* Service 3 */}
         <div className="flex flex-col items-center">
-          <img
+          <Image
             src="/images/service3.jpg"
             alt="Child Therapy"
+            width={1000}
+            height={1000}
             className="w-80 h-80 object-cover rounded-full mb-6 shadow-lg"
           />
           <h3 className="text-xl font-semibold font-serif text-emerald-950 mb-5">

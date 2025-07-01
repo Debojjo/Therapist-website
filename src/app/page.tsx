@@ -5,7 +5,7 @@ import Services from "@/components/Services";
 export default function HomePage() {
   return (
     <main>
-      <Hero />
+      <Hero/>
 
       <div className="h-12 sm:h-20 bg-[#f9f6f1]" />
 
