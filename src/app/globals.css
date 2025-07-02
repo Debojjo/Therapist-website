@@ -1,31 +1,8 @@
 @import "tailwindcss";
+@import "tw-animate-css";
 
 
 
 
-/* :root {
-  --background: #fffdf7;
-  --foreground: #171717;
-    --font-heading: 'Playfair Display', serif;
-  --font-body: Arial, Helvetica, sans-serif;
-}
 
-@layer base {
-  body {
-    @apply bg-[var(--background)] text-[var(--foreground)] font-sans;
-    font-family: var(--font-body);
-  }
-}
 
-@layer utilities {
-  .btn {
-    @apply bg-teal-200 text-gray-800 font-medium py-3 px-8 rounded-full hover:bg-teal-300 transition duration-300;
-  }
-  .section {
-    @apply py-16 px-4 max-w-7xl mx-auto;
-  }
-}
-
-h1, h2, h3 {
-  font-family: var(--font-heading);
-} */

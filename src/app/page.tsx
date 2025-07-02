@@ -1,33 +1,56 @@
+import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Services from "@/components/Services";
+import Rates from "@/components/Rates";
+import FAQ from "@/components/FAQ";
+import Contact from "@/components/Contact";
+import QuoteForm from "@/components/QuoteForm";
+import Footer from "@/components/Footer";
 
 export default function HomePage() {
   return (
     <main>
-      <Hero/>
+      <Header />
 
-      <div className="h-12 sm:h-20 bg-[#f9f6f1]" />
+      <Hero />
 
-      <About/>
+      <div className="h-12 sm:h-18 bg-[#f9f6f1]" />
+      <div className="sm:mb-20 mb-10"></div>
 
-      
-      {/* Spacer before the black line */}
-      <div className="h-12 sm:h-16" />
+      <About />
 
-      {/* Black horizontal line (90% width, centered) */}
+      <div className="h-5 sm:h-16" />
+
       <div className="flex justify-center">
         <div className="w-[90%] h-px bg-black" />
       </div>
 
-      {/* Optional spacer after line */}
-      <div className="h-8 sm:h-18" />
+      <div className="h-10 sm:h-15" />
 
       <Services />
 
-      {/* Optional spacer after services section */}
+      <Rates />
 
+      <div className="h-12 sm:h-16" />
+
+      <div className="flex justify-center">
+        <div className="w-[90%] h-px bg-black" />
+      </div>
+
+      <div className=" sm:h-8" />
+
+      <FAQ />
+
+      <div className="h-5 sm:h-8" />
+
+      <Contact />
+
+      <div className="h-15 sm:h-12" />
+
+      <QuoteForm />
+
+      <Footer />
     </main>
   );
 }
-
