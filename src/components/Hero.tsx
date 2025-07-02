@@ -28,7 +28,7 @@ export default function Hero() {
           Change, Insight, and Well-being
         </h1>
 
-        <p className="text-white text-sm  pt-7  font-serif sm:text-2xl">
+        <p className="text-white text-sm  pt-7  font-serif sm:text-2xl px-20">
           Offering individual psychotherapy for adults via telehealth in
           California and{" "}
           <a
@@ -44,7 +44,7 @@ export default function Hero() {
 
         <a
           href="#contact"
-          className="mt-8 bg-[#6ab4a4] text-white text-lg font-medium px-8 py-3 rounded-full shadow hover:opacity-85 transition"
+          className="mt-10 bg-[#6ab4a4] text-white text-lg font-medium px-8 py-3 rounded-full shadow hover:opacity-85 transition"
         >
           Schedule a Consultation
         </a>

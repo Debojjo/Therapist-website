@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function QuoteForm() {
   return (
-  <div className="relative w-full h-[60vh] md:h-[70vh] lg:h-[85vh]  overflow-hidden">
+  <div className="relative w-full h-[40vh] md:h-[70vh] sm:h-[85vh]  overflow-hidden">
       <Image
         src="/images/quote.jpg"
         alt="Waves background for quote"
@@ -17,7 +17,7 @@ export default function QuoteForm() {
         <h1 className="text-black font-serif text-xl md:text-3xl sm:text-4xl max-w-3xl leading-snug ">
           “Caring for yourself is not self-indulgence, it is self-preservation.”
         </h1>
-        <h3 className="text-black-200 mt-8 text-sm sm:text-md">— Audre Lorde</h3>
+        <h3 className="text-black-200 mt-8 text-md">— Audre Lorde</h3>
       </div>
     </div>
   );
