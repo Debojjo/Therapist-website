@@ -28,7 +28,7 @@ export default function Hero() {
           Change, Insight, and Well-being
         </h1>
 
-        <p className="text-white text-sm  pt-7  font-serif sm:text-2xl px-20">
+        <p className="text-white text-lg pt-7 font-serif px-10 sm:text-2xl sm:px-20">
           Offering individual psychotherapy for adults via telehealth in
           California and{" "}
           <a
