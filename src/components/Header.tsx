@@ -19,7 +19,7 @@ export default function Header() {
             className="h-8 w-8 sm:h-12 sm:w-12 object-contain"
           />
 
-          <Link href="/">
+          <Link href="https://therapist-website-delta.vercel.app">
             <div className="cursor-pointer text-black leading-tight hover:opacity-80 transition">
               <p className="text-md font-light font-serif text-stone-700 sm:text-xl sm:font-medium">
                 Dr. Serena Blake, Psy.D.
