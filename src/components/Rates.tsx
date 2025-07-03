@@ -8,7 +8,7 @@ export default function Rates() {
       <div className="max-w-3xl mx-auto space-y-6 text-black">
         <h2 className="text-2xl sm:text-3xl font-serif font-thin">Rates and Insurance</h2>
 
-        <div className="text-md font-thin font-serif">
+        <div className="text-lg font-thin font-serif">
           <p className="mb-5" >Individual Session Fee - $200</p>
           <p>Couples Session Fee- $240</p>
         </div>

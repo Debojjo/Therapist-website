@@ -23,8 +23,8 @@ export default function Footer() {
 
       <div>
         <p className="sm:text-lg">Office Hours:</p>
-        <p className="sm:text-md">In-person: Tue & Thu, 10 AM–6 PM</p>
-        <p className="sm:text-md mb-10">Virtual via Zoom: Mon, Wed & Fri, 1 PM–5 PM</p>
+        <p className="sm:text-lg">In-person: Tue & Thu, 10 AM–6 PM</p>
+        <p className="sm:text-lg mb-10">Virtual via Zoom: Mon, Wed & Fri, 1 PM–5 PM</p>
       </div>
 
       <div className="space-x-4 mt-2 sm:text-md">

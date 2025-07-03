@@ -12,7 +12,7 @@ export default function About() {
             <h2 className="text-2xl sm:text-3xl font-bold text-stone-600 mb-6 font-serif text-center sm:text-left">
               About Dr. Serena Blake
             </h2>
-            <p className="text-stone-500 text-base sm:text-lg leading-relaxed font-serif font-thin text-center sm:text-left">
+            <p className="text-stone-500 text-base sm:text-lg leading-relaxed font-serif font-thin text-align sm:text-left">
               I’m a licensed clinical psychologist (PsyD) based in Los Angeles,
               CA, with eight years of experience and over 500 client sessions. I
               blend evidence-based methods—like cognitive-behavioral therapy and

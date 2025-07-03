@@ -44,7 +44,7 @@ export default function Hero() {
 
         <a
           href="#contact"
-          className="mt-10 bg-[#6ab4a4] text-white text-lg font-medium px-8 py-3 rounded-full shadow hover:opacity-85 transition"
+          className="mt-10 bg-[#6ab4a4] text-white text-lg font-medium px-8 py-3 rounded-full shadow hover:opacity-80 transition"
         >
           Schedule a Consultation
         </a>
