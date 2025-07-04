@@ -9,10 +9,10 @@ export default function About() {
       <div className="mx-auto w-full max-w-[1000px]">
         <div className="flex flex-col-reverse md:flex-row items-center gap-10">
           <div className="w-full md:w-1/2 px-2 md:px-4 text-left fade-in ">
-            <h2 className="text-2xl sm:text-3xl font-bold text-stone-600 mb-6 font-serif text-center sm:text-left">
+            <h2 className="text-2xl sm:text-3xl font-bold text-stone-600 mb-6 font-serif text-center sm:text-left sm:px-0">
               About Dr. Serena Blake
             </h2>
-            <p className="text-stone-500 text-base sm:text-lg leading-relaxed font-serif font-thin text-align sm:text-left">
+            <p className="text-stone-500 text-base sm:text-lg leading-relaxed font-serif font-thin text-align px-4 sm:px-0 sm:text-left">
               I’m a licensed clinical psychologist (PsyD) based in Los Angeles,
               CA, with eight years of experience and over 500 client sessions. I
               blend evidence-based methods—like cognitive-behavioral therapy and
